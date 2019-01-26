@@ -1,0 +1,101 @@
+/* .container{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 250px;
+} */
+.header {
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 10px;
+    box-sizing: border-box;
+    width: calc(3* 8.3333%);
+    max-width: 150px;
+}
+
+.box {
+    background-color: gray;
+    min-height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px darkslategrey;
+}
+
+.box:hover {
+    background-color: darkgray;
+}
+
+.blank {
+    background-color: black;
+}
+
+.yellowscore {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    min-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    border-radius: 5px;
+    color: yellow;
+}
+
+.greenscore {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    min-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    border-radius: 5px;
+    color: green;
+}
+
+.yellow {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: black;
+    background-color: yellow;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.green {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: black;
+    background-color: green;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.draw {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: black;
+    background-color: gray;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+}
